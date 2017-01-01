@@ -79,7 +79,6 @@
 			margin: 0 auto;
 			/* canvas must have border and padding set to zero to
 			 * calculate cursor coordinates correctly */
-			cursor: none;
 			border: 0 none;
 			padding: 0;
 		}
@@ -227,14 +226,14 @@
 				}
 			};
 
-			if (true) { // controls enabled
+			if (false) { // controls enabled
 				(function() {
 					var controlsElement = document.getElementById("controls");
 					controlsElement.style.visibility="visible";
 				})();
 			}
 
-			if (true) { // debugging enabled
+			if (false) { // debugging enabled
 				(function() {
 					var outputToggleLabel = document.getElementById("display-output");
 					var outputToggle = document.getElementById("output-toggle");
